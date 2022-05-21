@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.top {
+    width: 100%;
+    height: 77px;
+    background-color: #fff;
+    border-bottom: 1px solid #cecfcf;
+    box-shadow: 0 0 5px #cecfcf inset;
+}
+
+
+.top_type_area {
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+.top_type_area>a>img {
+    margin-top: 13px;
+    width: 132px;
+    float: left;
+}
+
+.top_type_area>ul {
+    float: left;
+    width: 490px;
+    height: 50px;
+    padding: 28px 0 0 40px;
+}
+
+.top_type_area>ul>li {
+    float: left;
+    width: 90px;
+    height: 32px;
+    font-size: 20px;
+
+}
+
+.top_type_area>ul>li>a {
+    color: #333;
+}
+
+.top_type_area>ul>li>a:hover {
+    color: #fe5341;
+    transition: .3s;
+}
+
+.top_type_area .nav {
+    color: #fe5341;
+}
+
+.top_right {
+    float: right;
+}
+
+.seek {
+    display: block;
+    width: 42px;
+    height: 40px;
+    margin: 28px 15px 0 0;
+    background: url(../img/search.png) no-repeat;
+    float: left;
+    transition: 1s;
+}
+
+.seek:hover {
+    background-size: 65%;
+}
+
+.login {
+    text-align: center;
+    display: block;
+    float: right;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    color: #fe5341;
+    border: 1px solid #fe5341;
+    border-radius: 4px;
+    margin-top: 23px;
+}
+
+.login:hover {
+    background-color: #fe5341;
+    color: #fff;
+    transition: .7s;
+}
+
+.bottom {
+    width: 100%;
+    background-color: #505050;
+    padding: 40px 0 15px 0;
+}
+
+.bottom_type_area {
+    width: 1000px;
+    height: 305px;
+    margin: 0 auto;
+}
+
+.bottom_type_area>dl {
+    float: left;
+    padding-left: 22px;
+    font-family: "Microsoft YaHei", "SimHei", "微软雅黑", "黑体";
+    line-height: 20px;
+}
+
+.bottom_type_area dl:nth-of-type(1) {
+    padding-left: 0px;
+}
+
+.bottom_type_area dt {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.bottom_type_area dd {
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+.bottom_type_area dd>a {
+    display: inline-block;
+    width: 69px;
+    height: 20px;
+    color: #a3a3a3;
+}
+
+.bottom>p {
+    margin-top: 80px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 13px;
+}
+
+#back_Top {
+    width: 50px;
+    height: 50px;
+    background: url(../img/back.png) no-repeat #e8e8e8 center center;
+    border-radius: 5px;
+    position: fixed;
+    right: 150px;
+    bottom: 180px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+#back_Top:hover {
+    background: url(../img/back.png) no-repeat #C6C6C6 center center;
+}
