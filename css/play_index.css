@@ -1,0 +1,32 @@
+h1 {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 34px 0 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* color: #fe5431; */
+/*     border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px; */
+nav a {
+    display: inline-block;
+    width: 165px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #a3a3a3;
+}
+
+.zxx {
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}

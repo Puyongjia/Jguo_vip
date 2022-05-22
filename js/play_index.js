@@ -11,7 +11,7 @@ function ajx() {
             if (ajax.status == 200) {
                 arr = JSON.parse(ajax.responseText);
                 // console.log(arr, '0');
-                show(arr, '0')
+                show(arr, 0)
                 xin();
             } else {
                 console.log('请求失败');
@@ -63,7 +63,7 @@ playMore.firstElementChild.onclick = function () {
         setTimeout(function () {
             playMore.firstElementChild.className = '';
             playMore.firstElementChild.innerHTML = '---已加载完毕---';
-            show(arr, '2');
+            show(arr, 2);
             xin();
         }, 1500)
         axx = false;
