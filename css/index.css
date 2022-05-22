@@ -209,6 +209,7 @@ body>h2,
 
 .report_box {
     width: 100%;
+    padding-top: 40px;
     background-color: #F7F7F7;
 }
 
@@ -353,6 +354,10 @@ body>h2,
     display: inline-block;
     border: 1px solid #e6e9e9;
     border-radius: 6px;
+}
+
+.find_Coldplay>li>a:hover img {
+    animation: hahah 1.5s infinite;
 }
 
 .find_Coldplay>li:nth-of-type(4n+4) {

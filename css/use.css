@@ -1,0 +1,159 @@
+.nav_noe {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    padding: 12px 0;
+}
+
+.nav_noe>a {
+    display: inline-block;
+    width: 165px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #a3a3a3;
+}
+
+.nav_noe>.zxxx {
+    color: #000;
+}
+
+.try_out {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 25px 0;
+}
+
+.slideshow_11 {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.slideshow_11 dl {
+    text-align: left;
+    width: 1000px;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+
+}
+
+.slideshow_11 dl:nth-of-type(1) {
+    margin-left: 0px;
+}
+
+.slideshow_11 dl>dt {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 286px;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    padding-bottom: 7px;
+    margin-bottom: 25px;
+    margin-right: 28px;
+}
+
+.span_ {
+    font-size: 12px;
+    position: absolute;
+    line-height: 22px;
+    z-index: 10;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    top: 0;
+    right: 0;
+}
+
+.span_Y {
+    background: #fe5341;
+    color: #f5e8e8;
+}
+
+.span_S {
+    background: #FBF4CB;
+    color: #C7B06A;
+}
+
+.slideshow_11 dl>dt img {
+    width: 220px;
+    height: 130px;
+}
+
+.hot_con {
+    padding: 8px 8px 14px;
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    height: 48px;
+    font-weight: bold;
+    overflow: hidden;
+    /*内容超出后隐藏*/
+
+    text-overflow: ellipsis;
+    /* 超出内容显示为省略号 */
+
+    white-space: nowrap;
+}
+
+.tabs {
+    padding: 6px 0;
+}
+
+.red span {
+    border: 1px solid #fe5341;
+    color: #fe5341;
+}
+
+.hei span {
+    border: 1px solid #a3a3a3;
+    color: #a3a3a3;
+}
+
+.led span {
+    border: 1px solid #80c269;
+    color: #80c269;
+}
+
+.led {
+    color: #80c269;
+}
+
+.red {
+    color: #fe5341;
+
+}
+
+.tabs>span {
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.sq {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.sq>span {
+    color: #fe5341;
+}
+
+.slideshow_11>dl>dt>a:hover img {
+    animation: hahah 1.5s infinite;
+}
+
+.playMore p {
+    color: #a3a3a3;
+    font-size: 16px;
+}
+
+.hei {
+    color: #a3a3a3;
+}

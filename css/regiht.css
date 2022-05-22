@@ -1,0 +1,115 @@
+.report-box {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 30px 0;
+}
+
+.report_banxin {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+}
+
+.report_banxin h2 {
+    padding: 20px 0 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.report_banxin h2::after {
+    position: absolute;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 20px;
+    background-color: #fe5341;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto 150px;
+}
+
+form>p {
+    margin-top: 27px;
+}
+
+form>p>input {
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px rgb(224, 224, 224) solid;
+    border-radius: 10px;
+}
+
+form>p:nth-of-type(2) {
+    position: relative;
+}
+
+form>p:nth-of-type(2)>img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+form>p:nth-of-type(2)>input {
+    width: 245px;
+}
+
+form>p:nth-of-type(3)>input {
+    width: 245px;
+}
+
+.ti {
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    width: 132px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px #a3a3a3 solid;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #a3a3a3;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#t2 {
+    border: medium none;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fe5341;
+    color: #fff;
+}
+
+input {
+    outline: none;
+}
+
+.ts {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
+.ts>p {
+    margin-top: 27px;
+    height: 50px;
+    line-height: 50px;
+    width: 230px;
+}
