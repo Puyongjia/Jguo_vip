@@ -67,13 +67,37 @@ body>h2 {
     width: 1000px;
     margin: 0 auto;
     height: 314px;
+    position: relative;
 }
 
 .slideshow {
+    position: relative;
     width: 1000px;
     height: 295px;
     margin-bottom: 20px;
     overflow: hidden;
+}
+
+.let {
+    left: -75px;
+    background: url(../img/prev.png) no-repeat;
+
+}
+
+.let,
+.rig {
+    position: absolute;
+    display: block;
+    width: 37px;
+    height: 78px;
+    z-index: 99;
+    top: 115px;
+}
+
+.rig {
+    right: -75px;
+    background: url(../img/next.png) no-repeat;
+
 }
 
 .slideshow_1 {
