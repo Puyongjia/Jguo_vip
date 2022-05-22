@@ -1,5 +1,5 @@
 var back_Top = document.getElementById('back_Top');
-
+var timer;
 window.onscroll = function () {
     // 获取滚动的值
     var top_ = document.documentElement.scrollTop || document.body.scrollTop;
@@ -14,7 +14,7 @@ window.onscroll = function () {
     // 单机返回顶部
     back_Top.onclick = function () {
         // 加入定时器 每次返回7/1的值
-        var timer = setInterval(function () {
+        timer = setInterval(function () {
             // 获取滚动的值
             var top_ = document.documentElement.scrollTop || document.body.scrollTop;
             var back_ = Math.floor(-top_ / 7);
@@ -28,4 +28,8 @@ window.onscroll = function () {
         }, 50)
 
     }
+}
+// 当鼠标滚动时 清除定时器
+window.onmousewheel = function () {
+    clearInterval(timer);
 }
