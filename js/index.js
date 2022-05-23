@@ -14,7 +14,7 @@ function fu() {
             clearInterval(time);
             timer = setTimeout(function () {
                 fu()
-            }, 3000)
+            }, 2000)
         }
     }, 15)
 }
