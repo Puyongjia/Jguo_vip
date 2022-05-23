@@ -1,0 +1,79 @@
+.business {
+    width: 1000px;
+    height: 2424px;
+    margin: 50px auto;
+}
+
+.business_1 {
+    width: 700px;
+    float: right;
+}
+
+.business_2 {
+    background: #f3f3f3;
+    padding: 25px 33px;
+}
+
+.business_2>h2 {
+    color: #444;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 900;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.business_3 {
+    color: #535353;
+    font-size: 16px;
+}
+
+.business_3>h3 {
+    font-size: 16px;
+    padding: 25px 0 20px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.8
+}
+
+.business_3>h5 {
+    font-size: 20px;
+    padding: 18px 0 16px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.pad_ {
+    padding-left: 25px;
+}
+
+.business_4 {
+    width: 270px;
+    float: left;
+}
+
+.business_5 {
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 25px 20px;
+}
+
+.business_5>h2 {
+    color: #444;
+    padding-left: 18px;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 900;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.business_5>dl {
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.business_5>dd {
+    padding-left: 15px;
+}
