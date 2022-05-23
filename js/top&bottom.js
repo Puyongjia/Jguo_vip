@@ -33,16 +33,18 @@ window.onscroll = function () {
 window.onmousewheel = function () {
     clearInterval(timer);
 }
-
-
-
 var top_right = document.getElementsByClassName('top_right')[0];
-top_right.innerHTML = `
-<a href="##" class="seek">
-<a href="../index/regiht.html" class="login">注册</a>
-<a href="../index/register.html" class="login">登录</a>
 
-`
+function xx() {
+    var top_right = document.getElementsByClassName('top_right')[0];
+    top_right.innerHTML = `
+    <a href="##" class="seek">
+    <a href="../index/regiht.html" class="login">注册</a>
+    <a href="../index/register.html" class="login">登录</a>
+    
+    `
+}
+xx();
 
 
 
@@ -55,7 +57,13 @@ if (newFlag) {
     var ate = localStorage.getItem('name');
     top_right.innerHTML = `
 <a href="##" class="seek">
-<a href="../index/regiht.html" class="login">${ate}</a>
-
+<a href="##" class="login" id="logi">登出</a>
+<a href="##" class="login">${ate}</a>
 `
+}
+
+var logi = document.getElementById('logi');
+logi.onclick = function () {
+    localStorage.setItem('register', false);
+    xx();
 }
