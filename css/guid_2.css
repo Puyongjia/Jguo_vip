@@ -65,6 +65,24 @@
     border-radius: 6px 6px 0 0;
 }
 
+#myDiv>li>a>img:hover {
+    animation: hahha 1.5s infinite;
+}
+
+@keyframes hahha {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .info {
     width: 200px;
     height: 93px;

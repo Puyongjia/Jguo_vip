@@ -33,3 +33,29 @@ window.onscroll = function () {
 window.onmousewheel = function () {
     clearInterval(timer);
 }
+
+
+
+var top_right = document.getElementsByClassName('top_right')[0];
+top_right.innerHTML = `
+<a href="##" class="seek">
+<a href="../index/regiht.html" class="login">注册</a>
+<a href="../index/register.html" class="login">登录</a>
+
+`
+
+
+
+
+
+// localStorage中传入的ture或false是 string类型,不能作为if判断的条件，要转为boolean类型
+var flag = localStorage.getItem('register');
+var newFlag = eval(flag.toLowerCase())
+if (newFlag) {
+    var ate = localStorage.getItem('name');
+    top_right.innerHTML = `
+<a href="##" class="seek">
+<a href="../index/regiht.html" class="login">${ate}</a>
+
+`
+}
