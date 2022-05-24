@@ -27,7 +27,7 @@ function show(arry, num) {
             // console.log(arry[aa][aaa]);
 
             find_Coldplay.innerHTML += ` <li>
-            <a href="#">
+            <a href="../businss/introduce.html">
                 <img src="${arry[aa][aaa].img}" alt="">
                 <div class="info">
                     <p class="nam">${arry[aa][aaa].text}
@@ -38,7 +38,6 @@ function show(arry, num) {
                         <div class="right_icon">
                             <span class="xin">${arry[aa][aaa].like}</span>
                             <span class="look">${arry[aa][aaa].words}</span>
-
                         </div>
                     </div>
                 </div>

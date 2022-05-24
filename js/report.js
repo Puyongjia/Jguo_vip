@@ -22,7 +22,7 @@ function show(num, a, b) {
     for (var i = b; i < a; i++) {
         myDiv.innerHTML += `
         <li>
-        <a href="#">
+        <a href="../businss/pen.html">
                             <img src="${num[i].img}" alt="" width="700px" height="412px">
                             <div class="inf_">
                                 <p class="title_">${num[i].text}</p>
@@ -41,7 +41,7 @@ function show(num, a, b) {
                         </a>
                     </li>
                     <li>
-                    <a href="#">
+                    <a href="../businss/pen.html">
                             <div class="click_look">关于格林威特空气净化器还有 4 篇报告，点击查看</div>
                         </a>
                         </li>
