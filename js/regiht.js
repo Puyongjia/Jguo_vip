@@ -1,7 +1,8 @@
 var input_ = document.getElementsByTagName('input');
 var p_ = document.getElementsByClassName('ts')[0].children;
 
-var inp_1 = /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/;//手机号
+var inp_1 = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$/;//手机号
+
 input_[0].oninput = function () {
     if (inp_1.test(this.value)) {
         p_[0].innerHTML = '输入正确';
